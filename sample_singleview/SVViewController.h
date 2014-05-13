@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Quartz2DView.h"
+#import "SVInheritParent.h"
 
-@interface SVViewController : UIViewController
+@interface SVViewController : UIViewController <SVInheritParentDelegate>
+@property (weak, nonatomic) IBOutlet Quartz2DView *drawingView;
+@property (weak, nonatomic) SVInheritParent *obj1;
+-(void) drawRect:(CGRect)rect;
 
 @end

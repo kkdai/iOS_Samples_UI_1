@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2060360C1921FF93002C1297 /* SVInheritParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2060360B1921FF93002C1297 /* SVInheritParent.m */; };
 		20C7A7E018D182410025A470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C7A7DF18D182410025A470 /* Foundation.framework */; };
 		20C7A7E218D182410025A470 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C7A7E118D182410025A470 /* CoreGraphics.framework */; };
 		20C7A7E418D182410025A470 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C7A7E318D182410025A470 /* UIKit.framework */; };
@@ -22,6 +23,7 @@
 		20C7A80418D182410025A470 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C7A7E318D182410025A470 /* UIKit.framework */; };
 		20C7A80C18D182410025A470 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20C7A80A18D182410025A470 /* InfoPlist.strings */; };
 		20C7A80E18D182410025A470 /* sample_singleviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C7A80D18D182410025A470 /* sample_singleviewTests.m */; };
+		20C7A81C18D19C9B0025A470 /* Quartz2DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C7A81B18D19C9B0025A470 /* Quartz2DView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2060360A1921FF93002C1297 /* SVInheritParent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVInheritParent.h; sourceTree = "<group>"; };
+		2060360B1921FF93002C1297 /* SVInheritParent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVInheritParent.m; sourceTree = "<group>"; };
 		20C7A7DC18D182410025A470 /* sample_singleview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample_singleview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C7A7DF18D182410025A470 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20C7A7E118D182410025A470 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +59,8 @@
 		20C7A80918D182410025A470 /* sample_singleviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sample_singleviewTests-Info.plist"; sourceTree = "<group>"; };
 		20C7A80B18D182410025A470 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20C7A80D18D182410025A470 /* sample_singleviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sample_singleviewTests.m; sourceTree = "<group>"; };
+		20C7A81A18D19C9B0025A470 /* Quartz2DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quartz2DView.h; sourceTree = "<group>"; };
+		20C7A81B18D19C9B0025A470 /* Quartz2DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quartz2DView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,8 @@
 		20C7A7D318D182410025A470 = {
 			isa = PBXGroup;
 			children = (
+				20C7A81A18D19C9B0025A470 /* Quartz2DView.h */,
+				20C7A81B18D19C9B0025A470 /* Quartz2DView.m */,
 				20C7A7E518D182410025A470 /* sample_singleview */,
 				20C7A80718D182410025A470 /* sample_singleviewTests */,
 				20C7A7DE18D182410025A470 /* Frameworks */,
@@ -116,10 +124,12 @@
 			children = (
 				20C7A7EE18D182410025A470 /* SVAppDelegate.h */,
 				20C7A7EF18D182410025A470 /* SVAppDelegate.m */,
-				20C7A7F118D182410025A470 /* Main_iPhone.storyboard */,
-				20C7A7F418D182410025A470 /* Main_iPad.storyboard */,
 				20C7A7F718D182410025A470 /* SVViewController.h */,
 				20C7A7F818D182410025A470 /* SVViewController.m */,
+				2060360A1921FF93002C1297 /* SVInheritParent.h */,
+				2060360B1921FF93002C1297 /* SVInheritParent.m */,
+				20C7A7F118D182410025A470 /* Main_iPhone.storyboard */,
+				20C7A7F418D182410025A470 /* Main_iPad.storyboard */,
 				20C7A7FA18D182410025A470 /* Images.xcassets */,
 				20C7A7E618D182410025A470 /* Supporting Files */,
 			);
@@ -254,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2060360C1921FF93002C1297 /* SVInheritParent.m in Sources */,
 				20C7A7F918D182410025A470 /* SVViewController.m in Sources */,
+				20C7A81C18D19C9B0025A470 /* Quartz2DView.m in Sources */,
 				20C7A7EC18D182410025A470 /* main.m in Sources */,
 				20C7A7F018D182410025A470 /* SVAppDelegate.m in Sources */,
 			);
@@ -471,6 +483,7 @@
 				20C7A81318D182410025A470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20C7A81418D182410025A470 /* Build configuration list for PBXNativeTarget "sample_singleviewTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +492,7 @@
 				20C7A81618D182410025A470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
