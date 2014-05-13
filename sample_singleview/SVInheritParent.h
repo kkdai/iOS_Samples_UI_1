@@ -2,7 +2,7 @@
 //  SVInheritParent.h
 //  sample_singleview
 //
-//  Created by 林 宜鋒 on 2014/5/13.
+//  Created on 2014/5/13.
 //  Copyright (c) 2014年 EvanLin. All rights reserved.
 //
 
@@ -14,7 +14,6 @@
 -(void) didCallBack:(NSString*) callback_str;
 @optional
 @end
-
 
 @interface SVInheritParent : NSObject
 - (id) initWithDelegate :(id<SVInheritParentDelegate>)delegate;

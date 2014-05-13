@@ -2,7 +2,7 @@
 //  SVAppDelegate.m
 //  sample_singleview
 //
-//  Created by 林 宜鋒 on 2014/3/13.
+//  Created  on 2014/3/13.
 //  Copyright (c) 2014年 EvanLin. All rights reserved.
 //
 

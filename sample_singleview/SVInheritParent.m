@@ -2,7 +2,7 @@
 //  SVInheritParent.m
 //  sample_singleview
 //
-//  Created by 林 宜鋒 on 2014/5/13.
+//  Created on 2014/5/13.
 //  Copyright (c) 2014年 EvanLin. All rights reserved.
 //
 
