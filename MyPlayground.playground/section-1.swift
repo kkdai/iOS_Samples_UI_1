@@ -56,8 +56,45 @@ numbers.map({
     return result
     })
 
-//「Rewrite the closure to return zero for all odd numbers.」
+//「Rewrite the closure to return zero for all odd numbers.」 (p.15)
 numbers.map({
     (number: Int) -> Int in
     return number % 2 == 0 ? number : 0
     })
+
+sort([1, 5, 3, 12, 2]) { $0 > $1 }
+
+
+class NamedShape {
+    var numberOfSides: Int = 0
+    var name: String
+    
+    init(name: String) {
+        self.name = name
+    }
+    
+    func simpleDescription() -> String {
+        return "A shape with \(numberOfSides) sides."
+    }
+}
+
+var shape1 = NamedShape(name:"name1")
+shape1.numberOfSides = 2
+shape1.simpleDescription()
+
+let 中文 = "這是個中文  許重功"
+var 誰說 = "中文棒棒"
+println(中文)
+誰說 = 中文 +  中文
+
+
+var strValue : String?
+strValue = "test"
+strValue?.hashValue
+strValue!.hashValue
+//strValue.hashValue
+
+var strValue2 : String! = "test2"
+//strValue2 = "test"
+//strValue2?.hashValue
+strValue2.hashValue
