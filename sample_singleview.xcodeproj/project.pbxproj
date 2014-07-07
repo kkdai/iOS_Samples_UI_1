@@ -25,6 +25,9 @@
 		20C7A80C18D182410025A470 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20C7A80A18D182410025A470 /* InfoPlist.strings */; };
 		20C7A80E18D182410025A470 /* sample_singleviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C7A80D18D182410025A470 /* sample_singleviewTests.m */; };
 		20C7A81C18D19C9B0025A470 /* Quartz2DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C7A81B18D19C9B0025A470 /* Quartz2DView.m */; };
+		20E08C48196A3CDC0039F9D1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E08C47196A3CDC0039F9D1 /* MapKit.framework */; };
+		20E08C4B196A406C0039F9D1 /* SVMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E08C4A196A406C0039F9D1 /* SVMapViewController.m */; };
+		20E08C4D196A431D0039F9D1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E08C4C196A431D0039F9D1 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,10 @@
 		20C7A80D18D182410025A470 /* sample_singleviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sample_singleviewTests.m; sourceTree = "<group>"; };
 		20C7A81A18D19C9B0025A470 /* Quartz2DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quartz2DView.h; sourceTree = "<group>"; };
 		20C7A81B18D19C9B0025A470 /* Quartz2DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quartz2DView.m; sourceTree = "<group>"; };
+		20E08C47196A3CDC0039F9D1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		20E08C49196A406C0039F9D1 /* SVMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMapViewController.h; sourceTree = "<group>"; };
+		20E08C4A196A406C0039F9D1 /* SVMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMapViewController.m; sourceTree = "<group>"; };
+		20E08C4C196A431D0039F9D1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E08C4D196A431D0039F9D1 /* CoreLocation.framework in Frameworks */,
 				20C7A7E218D182410025A470 /* CoreGraphics.framework in Frameworks */,
 				20C7A7E418D182410025A470 /* UIKit.framework in Frameworks */,
+				20E08C48196A3CDC0039F9D1 /* MapKit.framework in Frameworks */,
 				20C7A7E018D182410025A470 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,6 +127,8 @@
 		20C7A7DE18D182410025A470 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20E08C4C196A431D0039F9D1 /* CoreLocation.framework */,
+				20E08C47196A3CDC0039F9D1 /* MapKit.framework */,
 				20C7A7DF18D182410025A470 /* Foundation.framework */,
 				20C7A7E118D182410025A470 /* CoreGraphics.framework */,
 				20C7A7E318D182410025A470 /* UIKit.framework */,
@@ -129,6 +140,8 @@
 		20C7A7E518D182410025A470 /* sample_singleview */ = {
 			isa = PBXGroup;
 			children = (
+				20E08C49196A406C0039F9D1 /* SVMapViewController.h */,
+				20E08C4A196A406C0039F9D1 /* SVMapViewController.m */,
 				20C7A7EE18D182410025A470 /* SVAppDelegate.h */,
 				20C7A7EF18D182410025A470 /* SVAppDelegate.m */,
 				20C7A7F718D182410025A470 /* SVViewController.h */,
@@ -218,6 +231,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = EvanLin;
 				TargetAttributes = {
+					20C7A7DB18D182410025A470 = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					20C7A7FF18D182410025A470 = {
 						TestTargetID = 20C7A7DB18D182410025A470;
 					};
@@ -274,6 +294,7 @@
 				20C7A7F918D182410025A470 /* SVViewController.m in Sources */,
 				20C7A81C18D19C9B0025A470 /* Quartz2DView.m in Sources */,
 				20C7A7EC18D182410025A470 /* main.m in Sources */,
+				20E08C4B196A406C0039F9D1 /* SVMapViewController.m in Sources */,
 				20C7A7F018D182410025A470 /* SVAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
