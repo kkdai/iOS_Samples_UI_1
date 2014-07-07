@@ -6,13 +6,29 @@
 //  Copyright (c) 2014年 EvanLin. All rights reserved.
 //
 
+#import <GoogleMaps/GoogleMaps.h>
 #import "SVAppDelegate.h"
+#import "GMapAPIKey.h"
 
-@implementation SVAppDelegate
+@implementation SVAppDelegate {
+    id services_;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    if ([kAPIKey length] == 0) {
+        // Blow up if APIKey has not yet been set.
+        NSString *bundleId = [[NSBundle mainBundle] bundleIdentifier];
+        NSString *format = @"Configure APIKey inside SDKDemoAPIKey.h for your "
+        @"bundle `%@`, see README.GoogleMapsSDKDemos for more information";
+        @throw [NSException exceptionWithName:@"SDKDemoAppDelegate"
+                                       reason:[NSString stringWithFormat:format, bundleId]
+                                     userInfo:nil];
+    }
+    [GMSServices provideAPIKey:kAPIKey];
+    services_ = [GMSServices sharedServices];
     return YES;
 }
 							
