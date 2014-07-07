@@ -9,12 +9,12 @@
 #import "SVViewController.h"
 
 @interface SVViewController ()
-{
-    SVInheritParent *obj1;
-}
 @end
 
 @implementation SVViewController
+{
+    SVInheritParent *obj1;
+}
 @synthesize drawingView;
 
 - (void)viewDidLoad
