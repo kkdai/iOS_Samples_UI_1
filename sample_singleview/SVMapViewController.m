@@ -32,7 +32,7 @@
 }
 
 - (IBAction)showOtherLoc:(id)sender {
-    NSString *location = @"新北市三重區仁義街343號7樓";
+    NSString *location = @"台北市大安區仁愛路三段53號";
     CLGeocoder *geocoder = [[CLGeocoder alloc] init];
     [geocoder geocodeAddressString:location
                  completionHandler:^(NSArray* placemarks, NSError* error){
