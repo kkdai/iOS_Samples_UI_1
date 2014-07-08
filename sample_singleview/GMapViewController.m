@@ -73,12 +73,11 @@
     [mapView_ animateToCameraPosition:newCamera];
 }
 
-- (IBAction)showLoc:(id)sender {
- 
-    NSString *addressString = @"台北市瑞光路399號";
+- (CLLocation*) addressToLocation:(NSString*) address{
     CLLocation *location;
-    NSString *url = [NSString stringWithFormat:@"http://maps.googleapis.com/maps/api/geocode/json?address=%@&sensor=true", addressString];
+    NSString *url = [NSString stringWithFormat:@"http://maps.googleapis.com/maps/api/geocode/json?address=%@&sensor=true", address];
     url = [url stringByReplacingOccurrencesOfString:@" " withString:@"%20"];
+    url = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     
     NSURL *wurl = [NSURL URLWithString:url];
     NSData *data = [NSData dataWithContentsOfURL: wurl];
@@ -115,12 +114,19 @@
             }
         }
     }
+    return location;
+}
+
+- (IBAction)showLoc:(id)sender {
+ 
+    NSString *addressString = @"台北市瑞光路399號";
+    CLLocation *location = [self addressToLocation:addressString];
     
     GMSCameraPosition* camera = [GMSCameraPosition
                                  cameraWithLatitude: location.coordinate.latitude
                                  longitude: location.coordinate.longitude
-                                 zoom: 6];
-    mapView_.camera = camera;
+                                 zoom: 15];
+    [self.gMap1 animateToCameraPosition:camera];
 }
 
 - (void)viewDidAppear:(BOOL)animated {

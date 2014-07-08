@@ -133,15 +133,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOZ-5l-KV4">
-                                <rect key="frame" x="130" y="293" width="60" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLP-m2-B2J">
+                                <rect key="frame" x="134" y="293" width="60" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="臺北花市">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="showLoc:" destination="dNs-9W-Qym" eventType="touchUpInside" id="gKi-lN-7eZ"/>
-                                    <action selector="showMyLoc:" destination="dNs-9W-Qym" eventType="touchUpInside" id="Wh6-xS-HlR"/>
+                                    <action selector="showLoc:" destination="dNs-9W-Qym" eventType="touchUpInside" id="g6H-KT-dnj"/>
                                 </connections>
                             </button>
                         </subviews>
