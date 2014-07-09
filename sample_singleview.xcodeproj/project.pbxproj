@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		201B9949196D30E40068FB3E /* GMap2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B9948196D30E40068FB3E /* GMap2ViewController.m */; };
 		2060360C1921FF93002C1297 /* SVInheritParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2060360B1921FF93002C1297 /* SVInheritParent.m */; };
 		2060360F19221330002C1297 /* SVInheritChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 2060360E19221330002C1297 /* SVInheritChild.m */; };
+		20902E64196BB4B700E7A31C /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20902E63196BB4B700E7A31C /* MultipeerConnectivity.framework */; };
 		20C7A7E018D182410025A470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C7A7DF18D182410025A470 /* Foundation.framework */; };
 		20C7A7E218D182410025A470 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C7A7E118D182410025A470 /* CoreGraphics.framework */; };
 		20C7A7E418D182410025A470 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C7A7E318D182410025A470 /* UIKit.framework */; };
@@ -55,10 +57,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		201B9947196D30E40068FB3E /* GMap2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMap2ViewController.h; sourceTree = "<group>"; };
+		201B9948196D30E40068FB3E /* GMap2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMap2ViewController.m; sourceTree = "<group>"; };
 		2060360A1921FF93002C1297 /* SVInheritParent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVInheritParent.h; path = sample_singleview/SVInheritParent.h; sourceTree = "<group>"; };
 		2060360B1921FF93002C1297 /* SVInheritParent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVInheritParent.m; path = sample_singleview/SVInheritParent.m; sourceTree = "<group>"; };
 		2060360D19221330002C1297 /* SVInheritChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVInheritChild.h; path = sample_singleview/SVInheritChild.h; sourceTree = "<group>"; };
 		2060360E19221330002C1297 /* SVInheritChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVInheritChild.m; path = sample_singleview/SVInheritChild.m; sourceTree = "<group>"; };
+		20902E63196BB4B700E7A31C /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		20C7A7DC18D182410025A470 /* sample_singleview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample_singleview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C7A7DF18D182410025A470 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20C7A7E118D182410025A470 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -108,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20902E64196BB4B700E7A31C /* MultipeerConnectivity.framework in Frameworks */,
 				20E08C66196A8A2A0039F9D1 /* SystemConfiguration.framework in Frameworks */,
 				20E08C64196A8A230039F9D1 /* QuartzCore.framework in Frameworks */,
 				20E08C62196A8A1B0039F9D1 /* OpenGLES.framework in Frameworks */,
@@ -170,6 +176,7 @@
 		20C7A7DE18D182410025A470 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20902E63196BB4B700E7A31C /* MultipeerConnectivity.framework */,
 				20E08C69196A8C6A0039F9D1 /* GoogleMaps.bundle */,
 				20E08C67196A8C070039F9D1 /* GoogleMaps.framework */,
 				20E08C65196A8A2A0039F9D1 /* SystemConfiguration.framework */,
@@ -198,6 +205,8 @@
 			children = (
 				20E08C6B196A8E730039F9D1 /* GMapViewController.h */,
 				20E08C6C196A8E730039F9D1 /* GMapViewController.m */,
+				201B9947196D30E40068FB3E /* GMap2ViewController.h */,
+				201B9948196D30E40068FB3E /* GMap2ViewController.m */,
 				20E08C49196A406C0039F9D1 /* SVMapViewController.h */,
 				20E08C4A196A406C0039F9D1 /* SVMapViewController.m */,
 				20C7A7EE18D182410025A470 /* SVAppDelegate.h */,
@@ -350,6 +359,7 @@
 			files = (
 				2060360C1921FF93002C1297 /* SVInheritParent.m in Sources */,
 				2060360F19221330002C1297 /* SVInheritChild.m in Sources */,
+				201B9949196D30E40068FB3E /* GMap2ViewController.m in Sources */,
 				20C7A7F918D182410025A470 /* SVViewController.m in Sources */,
 				20E08C6D196A8E730039F9D1 /* GMapViewController.m in Sources */,
 				20C7A81C18D19C9B0025A470 /* Quartz2DView.m in Sources */,

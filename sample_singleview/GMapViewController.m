@@ -122,10 +122,17 @@
     NSString *addressString = @"台北市瑞光路399號";
     CLLocation *location = [self addressToLocation:addressString];
     
+    CLLocation *markPosition = [self addressToLocation:@"台北市瑞光路500號"];
+    CLLocationCoordinate2D position = CLLocationCoordinate2DMake(markPosition.coordinate.latitude, markPosition.coordinate.longitude);
+    GMSMarker *marker = [GMSMarker markerWithPosition:position];
+    marker.title = @"瑞光路500號";
+    marker.map = self.gMap1;
+    
     GMSCameraPosition* camera = [GMSCameraPosition
                                  cameraWithLatitude: location.coordinate.latitude
                                  longitude: location.coordinate.longitude
                                  zoom: 15];
+    
     [self.gMap1 animateToCameraPosition:camera];
 }
 
