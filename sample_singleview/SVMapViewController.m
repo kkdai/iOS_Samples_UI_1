@@ -96,5 +96,24 @@
     // Pass the selected object to the new view controller.
 }
 */
+#pragma mark MapKit delegate
+-(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation{
+    
+	MKPinAnnotationView *newAnnotation = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"annotation1"];
+	newAnnotation.pinColor = MKPinAnnotationColorPurple;
+	newAnnotation.animatesDrop = YES;
+	//canShowCallout: to display the callout view by touch the pin
+	newAnnotation.canShowCallout=YES;
+	
+	UIButton *button = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+	[button addTarget:self action:@selector(checkButtonTapped:event:) forControlEvents:UIControlEventTouchUpInside];
+	newAnnotation.rightCalloutAccessoryView=button;
+    
+	return newAnnotation;
+}
 
+- (void)checkButtonTapped:(id)sender event:(id)event{
+    
+    
+}
 @end
