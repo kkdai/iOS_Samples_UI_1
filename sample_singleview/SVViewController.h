@@ -10,8 +10,17 @@
 #import "Quartz2DView.h"
 #import "SVInheritParent.h"
 #import "SVInheritChild.h"
+#import "Bank.h"
 
-@interface SVViewController : UIViewController <SVInheritParentDelegate>
+@interface SVViewController : UIViewController <SVInheritParentDelegate> {
+    //
+    NSString *currentAttrib;
+    NSMutableArray *bankWebArray;
+    Bank *aBank;
+    NSMutableString *currentElementValue;  //用于存储元素标签的值
+    BOOL storingFlag; //查询标签所对应的元素是否存在
+    NSArray *elementToParse;  //要存储的元素
+}
 @property (weak, nonatomic) IBOutlet Quartz2DView *drawingView;
 @property (weak, nonatomic) SVInheritParent *obj1;
 -(void) drawRect:(CGRect)rect;
