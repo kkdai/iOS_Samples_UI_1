@@ -49,6 +49,9 @@
     /* Option 3. add a map to a subview already on the XIB */
     //Use UIView and addSubView
     GMSMapView *map3 = [GMSMapView mapWithFrame:self.map1.bounds camera:camera];
+    map3.mapType = kGMSTypeTerrain;
+    map3.settings.compassButton = YES;
+    map3.settings.zoomGestures = NO;
     [self.map1 addSubview:map3];
     
     
@@ -126,6 +129,9 @@
     CLLocationCoordinate2D position = CLLocationCoordinate2DMake(markPosition.coordinate.latitude, markPosition.coordinate.longitude);
     GMSMarker *marker = [GMSMarker markerWithPosition:position];
     marker.title = @"瑞光路500號";
+    marker.snippet = @"漂亮的花市";
+    marker.appearAnimation = kGMSMarkerAnimationPop;
+    marker.icon = [GMSMarker markerImageWithColor:[UIColor greenColor]];
     marker.map = self.gMap1;
     
     GMSCameraPosition* camera = [GMSCameraPosition

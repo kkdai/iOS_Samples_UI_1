@@ -8,7 +8,7 @@
 
 #import "GMap2ViewController.h"
 
-@interface GMap2ViewController () {
+@interface GMap2ViewController ()<GMSMapViewDelegate> {
     GMSMapView *mapView;
     BOOL firstLocationUpdate;
 }
@@ -40,11 +40,32 @@
     mapView.settings.myLocationButton = YES;
     
     // Listen to the myLocation property of GMSMapView.
-    [mapView addObserver:self
+    /*
+     [mapView addObserver:self
                forKeyPath:@"myLocation"
                   options:NSKeyValueObservingOptionNew
                   context:NULL];
 
+    */
+    
+    _markers = [[NSMutableSet alloc] init];
+    
+    // Setup markers
+    int i = 0;
+    for (i=0; i < 4; i++) {
+        GMSMarker *marker1 =  [[GMSMarker alloc]init];
+        marker1.position = CLLocationCoordinate2DMake(-33+i, 150-i);
+        marker1.title = @"測試marker1";
+        marker1.snippet = @"測試marker1 ...";
+        marker1.appearAnimation = kGMSMarkerAnimationPop;
+        //marker1.map = mapView;
+        [_markers addObject:marker1];
+    }
+    
+    [self drawMarkers];
+    
+    mapView.delegate = self;
+    
     [_gMV addSubview:mapView];
     //self.view = mapView;
     
@@ -61,6 +82,24 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)showMyLoc:(id)sender {
+}
+
+#pragma mark - Markers handles
+- (void)drawMarkers{
+    for (GMSMarker *obj in _markers) {
+        obj.map = mapView;
+    }
+}
+
+#pragma mark - Marer delegate
+- (UIView *)mapView:(GMSMapView *)mapView markerInfoWindow:(GMSMarker *)marker {
+    UIView *infoWin = [[UIView alloc] init];
+    
+    UILabel *label = [[UILabel alloc] init];
+    label.text = marker.title;
+    label.frame = CGRectMake(14,11,175,16);
+    [infoWin addSubview:label];
+    return infoWin;
 }
 
 #pragma mark - KVO updates
@@ -85,5 +124,7 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
 
 @end

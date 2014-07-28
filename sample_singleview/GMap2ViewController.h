@@ -10,6 +10,8 @@
 #import <GoogleMaps/GoogleMaps.h>
 
 @interface GMap2ViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIView *gMV;
 
+
+@property (strong, nonatomic) IBOutlet UIView *gMV;
+@property (strong, nonatomic) NSMutableSet  *markers;
 @end
