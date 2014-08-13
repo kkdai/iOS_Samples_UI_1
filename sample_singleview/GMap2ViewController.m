@@ -94,10 +94,11 @@
 #pragma mark - Marer delegate
 - (UIView *)mapView:(GMSMapView *)mapView markerInfoWindow:(GMSMarker *)marker {
     UIView *infoWin = [[UIView alloc] init];
+    infoWin.frame = CGRectMake(0,0,200,70);
     
     UILabel *label = [[UILabel alloc] init];
+    infoWin.frame = CGRectMake(17,17,20,20);
     label.text = marker.title;
-    label.frame = CGRectMake(14,11,175,16);
     [infoWin addSubview:label];
     return infoWin;
 }
