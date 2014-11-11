@@ -13,6 +13,7 @@
 		2060360C1921FF93002C1297 /* SVInheritParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2060360B1921FF93002C1297 /* SVInheritParent.m */; };
 		2060360F19221330002C1297 /* SVInheritChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 2060360E19221330002C1297 /* SVInheritChild.m */; };
 		20902E64196BB4B700E7A31C /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20902E63196BB4B700E7A31C /* MultipeerConnectivity.framework */; };
+		20B62DE61A121EC10022F6EB /* XmppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B62DE51A121EC10022F6EB /* XmppHelper.m */; };
 		20C7A7E018D182410025A470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C7A7DF18D182410025A470 /* Foundation.framework */; };
 		20C7A7E218D182410025A470 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C7A7E118D182410025A470 /* CoreGraphics.framework */; };
 		20C7A7E418D182410025A470 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C7A7E318D182410025A470 /* UIKit.framework */; };
@@ -69,6 +70,8 @@
 		2060360D19221330002C1297 /* SVInheritChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVInheritChild.h; path = sample_singleview/SVInheritChild.h; sourceTree = "<group>"; };
 		2060360E19221330002C1297 /* SVInheritChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVInheritChild.m; path = sample_singleview/SVInheritChild.m; sourceTree = "<group>"; };
 		20902E63196BB4B700E7A31C /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		20B62DE41A121EC10022F6EB /* XmppHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmppHelper.h; sourceTree = "<group>"; };
+		20B62DE51A121EC10022F6EB /* XmppHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmppHelper.m; sourceTree = "<group>"; };
 		20C7A7DC18D182410025A470 /* sample_singleview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample_singleview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C7A7DF18D182410025A470 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20C7A7E118D182410025A470 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -155,6 +158,8 @@
 		20C7A7D318D182410025A470 = {
 			isa = PBXGroup;
 			children = (
+				20B62DE41A121EC10022F6EB /* XmppHelper.h */,
+				20B62DE51A121EC10022F6EB /* XmppHelper.m */,
 				20204447197E7A0400E32E1D /* Bank.h */,
 				20204448197E7A0400E32E1D /* Bank.m */,
 				20204445197E79C800E32E1D /* data.xml */,
@@ -369,6 +374,7 @@
 				2060360C1921FF93002C1297 /* SVInheritParent.m in Sources */,
 				2060360F19221330002C1297 /* SVInheritChild.m in Sources */,
 				201B9949196D30E40068FB3E /* GMap2ViewController.m in Sources */,
+				20B62DE61A121EC10022F6EB /* XmppHelper.m in Sources */,
 				20C7A7F918D182410025A470 /* SVViewController.m in Sources */,
 				20E08C6D196A8E730039F9D1 /* GMapViewController.m in Sources */,
 				20204449197E7A0400E32E1D /* Bank.m in Sources */,
