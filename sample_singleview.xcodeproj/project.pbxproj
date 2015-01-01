@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		201B9949196D30E40068FB3E /* GMap2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B9948196D30E40068FB3E /* GMap2ViewController.m */; };
+		201FF39D1A557CCE00F9D81F /* SVJsonHttpHeplperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 201FF39C1A557CCE00F9D81F /* SVJsonHttpHeplperView.m */; };
 		20204446197E79C800E32E1D /* data.xml in Resources */ = {isa = PBXBuildFile; fileRef = 20204445197E79C800E32E1D /* data.xml */; };
 		20204449197E7A0400E32E1D /* Bank.m in Sources */ = {isa = PBXBuildFile; fileRef = 20204448197E7A0400E32E1D /* Bank.m */; };
 		2060360C1921FF93002C1297 /* SVInheritParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2060360B1921FF93002C1297 /* SVInheritParent.m */; };
@@ -62,6 +63,9 @@
 /* Begin PBXFileReference section */
 		201B9947196D30E40068FB3E /* GMap2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMap2ViewController.h; sourceTree = "<group>"; };
 		201B9948196D30E40068FB3E /* GMap2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMap2ViewController.m; sourceTree = "<group>"; };
+		201FF39A1A557BC400F9D81F /* GMapAPIKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMapAPIKey.h; sourceTree = "<group>"; };
+		201FF39B1A557CCE00F9D81F /* SVJsonHttpHeplperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVJsonHttpHeplperView.h; sourceTree = "<group>"; };
+		201FF39C1A557CCE00F9D81F /* SVJsonHttpHeplperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVJsonHttpHeplperView.m; sourceTree = "<group>"; };
 		20204445197E79C800E32E1D /* data.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = data.xml; sourceTree = "<group>"; };
 		20204447197E7A0400E32E1D /* Bank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bank.h; sourceTree = "<group>"; };
 		20204448197E7A0400E32E1D /* Bank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bank.m; sourceTree = "<group>"; };
@@ -98,7 +102,6 @@
 		20E08C49196A406C0039F9D1 /* SVMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMapViewController.h; sourceTree = "<group>"; };
 		20E08C4A196A406C0039F9D1 /* SVMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMapViewController.m; sourceTree = "<group>"; };
 		20E08C4C196A431D0039F9D1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		20E08C4E196A88970039F9D1 /* GMapAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMapAPIKey.h; path = sample_singleview/GMapAPIKey.h; sourceTree = "<group>"; };
 		20E08C51196A89C60039F9D1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		20E08C53196A89D20039F9D1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		20E08C55196A89E40039F9D1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -163,7 +166,7 @@
 				20204447197E7A0400E32E1D /* Bank.h */,
 				20204448197E7A0400E32E1D /* Bank.m */,
 				20204445197E79C800E32E1D /* data.xml */,
-				20E08C4E196A88970039F9D1 /* GMapAPIKey.h */,
+				201FF39A1A557BC400F9D81F /* GMapAPIKey.h */,
 				20C7A81A18D19C9B0025A470 /* Quartz2DView.h */,
 				20C7A81B18D19C9B0025A470 /* Quartz2DView.m */,
 				2060360D19221330002C1297 /* SVInheritChild.h */,
@@ -217,6 +220,8 @@
 			isa = PBXGroup;
 			children = (
 				20E08C6B196A8E730039F9D1 /* GMapViewController.h */,
+				201FF39B1A557CCE00F9D81F /* SVJsonHttpHeplperView.h */,
+				201FF39C1A557CCE00F9D81F /* SVJsonHttpHeplperView.m */,
 				20E08C6C196A8E730039F9D1 /* GMapViewController.m */,
 				201B9947196D30E40068FB3E /* GMap2ViewController.h */,
 				201B9948196D30E40068FB3E /* GMap2ViewController.m */,
@@ -375,6 +380,7 @@
 				2060360F19221330002C1297 /* SVInheritChild.m in Sources */,
 				201B9949196D30E40068FB3E /* GMap2ViewController.m in Sources */,
 				20B62DE61A121EC10022F6EB /* XmppHelper.m in Sources */,
+				201FF39D1A557CCE00F9D81F /* SVJsonHttpHeplperView.m in Sources */,
 				20C7A7F918D182410025A470 /* SVViewController.m in Sources */,
 				20E08C6D196A8E730039F9D1 /* GMapViewController.m in Sources */,
 				20204449197E7A0400E32E1D /* Bank.m in Sources */,
