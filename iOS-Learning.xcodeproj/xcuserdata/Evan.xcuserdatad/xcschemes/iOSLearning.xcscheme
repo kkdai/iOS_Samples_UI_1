@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "20C7A7DB18D182410025A470"
-               BuildableName = "sample_singleview.app"
-               BlueprintName = "sample_singleview"
-               ReferencedContainer = "container:sample_singleview.xcodeproj">
+               BuildableName = "iOS-Learning.app"
+               BlueprintName = "iOS-Learning"
+               ReferencedContainer = "container:iOS-Learning.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "20C7A7FF18D182410025A470"
-               BuildableName = "sample_singleviewTests.xctest"
-               BlueprintName = "sample_singleviewTests"
-               ReferencedContainer = "container:sample_singleview.xcodeproj">
+               BuildableName = "iOS-LearningTests.xctest"
+               BlueprintName = "iOS-LearningTests"
+               ReferencedContainer = "container:iOS-Learning.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20C7A7DB18D182410025A470"
-            BuildableName = "sample_singleview.app"
-            BlueprintName = "sample_singleview"
-            ReferencedContainer = "container:sample_singleview.xcodeproj">
+            BuildableName = "iOS-Learning.app"
+            BlueprintName = "iOS-Learning"
+            ReferencedContainer = "container:iOS-Learning.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20C7A7DB18D182410025A470"
-            BuildableName = "sample_singleview.app"
-            BlueprintName = "sample_singleview"
-            ReferencedContainer = "container:sample_singleview.xcodeproj">
+            BuildableName = "iOS-Learning.app"
+            BlueprintName = "iOS-Learning"
+            ReferencedContainer = "container:iOS-Learning.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20C7A7DB18D182410025A470"
-            BuildableName = "sample_singleview.app"
-            BlueprintName = "sample_singleview"
-            ReferencedContainer = "container:sample_singleview.xcodeproj">
+            BuildableName = "iOS-Learning.app"
+            BlueprintName = "iOS-Learning"
+            ReferencedContainer = "container:iOS-Learning.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

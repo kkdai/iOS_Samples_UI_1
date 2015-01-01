@@ -76,14 +76,14 @@
 		20902E63196BB4B700E7A31C /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		20B62DE41A121EC10022F6EB /* XmppHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmppHelper.h; sourceTree = "<group>"; };
 		20B62DE51A121EC10022F6EB /* XmppHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmppHelper.m; sourceTree = "<group>"; };
-		20C7A7DC18D182410025A470 /* sample_singleview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample_singleview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C7A7DC18D182410025A470 /* iOS-Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C7A7DF18D182410025A470 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20C7A7E118D182410025A470 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		20C7A7E318D182410025A470 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		20C7A7E718D182410025A470 /* sample_singleview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sample_singleview-Info.plist"; sourceTree = "<group>"; };
+		20C7A7E718D182410025A470 /* iOS-Learning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-Learning-Info.plist"; sourceTree = "<group>"; };
 		20C7A7E918D182410025A470 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20C7A7EB18D182410025A470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		20C7A7ED18D182410025A470 /* sample_singleview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sample_singleview-Prefix.pch"; sourceTree = "<group>"; };
+		20C7A7ED18D182410025A470 /* iOS-Learning-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Learning-Prefix.pch"; sourceTree = "<group>"; };
 		20C7A7EE18D182410025A470 /* SVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVAppDelegate.h; sourceTree = "<group>"; };
 		20C7A7EF18D182410025A470 /* SVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVAppDelegate.m; sourceTree = "<group>"; };
 		20C7A7F218D182410025A470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
@@ -91,9 +91,9 @@
 		20C7A7F718D182410025A470 /* SVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVViewController.h; sourceTree = "<group>"; };
 		20C7A7F818D182410025A470 /* SVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVViewController.m; sourceTree = "<group>"; };
 		20C7A7FA18D182410025A470 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		20C7A80018D182410025A470 /* sample_singleviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sample_singleviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C7A80018D182410025A470 /* iOS-LearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-LearningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C7A80118D182410025A470 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		20C7A80918D182410025A470 /* sample_singleviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sample_singleviewTests-Info.plist"; sourceTree = "<group>"; };
+		20C7A80918D182410025A470 /* iOS-LearningTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-LearningTests-Info.plist"; sourceTree = "<group>"; };
 		20C7A80B18D182410025A470 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20C7A80D18D182410025A470 /* sample_singleviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sample_singleviewTests.m; sourceTree = "<group>"; };
 		20C7A81A18D19C9B0025A470 /* Quartz2DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quartz2DView.h; sourceTree = "<group>"; };
@@ -183,8 +183,8 @@
 		20C7A7DD18D182410025A470 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20C7A7DC18D182410025A470 /* sample_singleview.app */,
-				20C7A80018D182410025A470 /* sample_singleviewTests.xctest */,
+				20C7A7DC18D182410025A470 /* iOS-Learning.app */,
+				20C7A80018D182410025A470 /* iOS-LearningTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -242,10 +242,10 @@
 		20C7A7E618D182410025A470 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				20C7A7E718D182410025A470 /* sample_singleview-Info.plist */,
+				20C7A7E718D182410025A470 /* iOS-Learning-Info.plist */,
 				20C7A7E818D182410025A470 /* InfoPlist.strings */,
 				20C7A7EB18D182410025A470 /* main.m */,
-				20C7A7ED18D182410025A470 /* sample_singleview-Prefix.pch */,
+				20C7A7ED18D182410025A470 /* iOS-Learning-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -262,7 +262,7 @@
 		20C7A80818D182410025A470 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				20C7A80918D182410025A470 /* sample_singleviewTests-Info.plist */,
+				20C7A80918D182410025A470 /* iOS-LearningTests-Info.plist */,
 				20C7A80A18D182410025A470 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -271,9 +271,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20C7A7DB18D182410025A470 /* sample_singleview */ = {
+		20C7A7DB18D182410025A470 /* iOS-Learning */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20C7A81118D182410025A470 /* Build configuration list for PBXNativeTarget "sample_singleview" */;
+			buildConfigurationList = 20C7A81118D182410025A470 /* Build configuration list for PBXNativeTarget "iOS-Learning" */;
 			buildPhases = (
 				20C7A7D818D182410025A470 /* Sources */,
 				20C7A7D918D182410025A470 /* Frameworks */,
@@ -283,14 +283,14 @@
 			);
 			dependencies = (
 			);
-			name = sample_singleview;
+			name = "iOS-Learning";
 			productName = sample_singleview;
-			productReference = 20C7A7DC18D182410025A470 /* sample_singleview.app */;
+			productReference = 20C7A7DC18D182410025A470 /* iOS-Learning.app */;
 			productType = "com.apple.product-type.application";
 		};
-		20C7A7FF18D182410025A470 /* sample_singleviewTests */ = {
+		20C7A7FF18D182410025A470 /* iOS-LearningTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20C7A81418D182410025A470 /* Build configuration list for PBXNativeTarget "sample_singleviewTests" */;
+			buildConfigurationList = 20C7A81418D182410025A470 /* Build configuration list for PBXNativeTarget "iOS-LearningTests" */;
 			buildPhases = (
 				20C7A7FC18D182410025A470 /* Sources */,
 				20C7A7FD18D182410025A470 /* Frameworks */,
@@ -301,9 +301,9 @@
 			dependencies = (
 				20C7A80618D182410025A470 /* PBXTargetDependency */,
 			);
-			name = sample_singleviewTests;
+			name = "iOS-LearningTests";
 			productName = sample_singleviewTests;
-			productReference = 20C7A80018D182410025A470 /* sample_singleviewTests.xctest */;
+			productReference = 20C7A80018D182410025A470 /* iOS-LearningTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -328,7 +328,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 20C7A7D718D182410025A470 /* Build configuration list for PBXProject "sample_singleview" */;
+			buildConfigurationList = 20C7A7D718D182410025A470 /* Build configuration list for PBXProject "iOS-Learning" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -341,8 +341,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20C7A7DB18D182410025A470 /* sample_singleview */,
-				20C7A7FF18D182410025A470 /* sample_singleviewTests */,
+				20C7A7DB18D182410025A470 /* iOS-Learning */,
+				20C7A7FF18D182410025A470 /* iOS-LearningTests */,
 			);
 		};
 /* End PBXProject section */
@@ -404,7 +404,7 @@
 /* Begin PBXTargetDependency section */
 		20C7A80618D182410025A470 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 20C7A7DB18D182410025A470 /* sample_singleview */;
+			target = 20C7A7DB18D182410025A470 /* iOS-Learning */;
 			targetProxy = 20C7A80518D182410025A470 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -527,10 +527,10 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "sample_singleview/sample_singleview-Prefix.pch";
-				INFOPLIST_FILE = "sample_singleview/sample_singleview-Info.plist";
+				GCC_PREFIX_HEADER = "sample_singleview/iOS-Learning-Prefix.pch";
+				INFOPLIST_FILE = "sample_singleview/iOS-Learning-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS-Learning";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -545,10 +545,10 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "sample_singleview/sample_singleview-Prefix.pch";
-				INFOPLIST_FILE = "sample_singleview/sample_singleview-Info.plist";
+				GCC_PREFIX_HEADER = "sample_singleview/iOS-Learning-Prefix.pch";
+				INFOPLIST_FILE = "sample_singleview/iOS-Learning-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS-Learning";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -568,8 +568,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "sample_singleviewTests/sample_singleviewTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "sample_singleviewTests/iOS-LearningTests-Info.plist";
+				PRODUCT_NAME = "iOS-LearningTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -586,8 +586,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sample_singleview/sample_singleview-Prefix.pch";
-				INFOPLIST_FILE = "sample_singleviewTests/sample_singleviewTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "sample_singleviewTests/iOS-LearningTests-Info.plist";
+				PRODUCT_NAME = "iOS-LearningTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -596,7 +596,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20C7A7D718D182410025A470 /* Build configuration list for PBXProject "sample_singleview" */ = {
+		20C7A7D718D182410025A470 /* Build configuration list for PBXProject "iOS-Learning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20C7A80F18D182410025A470 /* Debug */,
@@ -605,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20C7A81118D182410025A470 /* Build configuration list for PBXNativeTarget "sample_singleview" */ = {
+		20C7A81118D182410025A470 /* Build configuration list for PBXNativeTarget "iOS-Learning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20C7A81218D182410025A470 /* Debug */,
@@ -614,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20C7A81418D182410025A470 /* Build configuration list for PBXNativeTarget "sample_singleviewTests" */ = {
+		20C7A81418D182410025A470 /* Build configuration list for PBXNativeTarget "iOS-LearningTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20C7A81518D182410025A470 /* Debug */,
